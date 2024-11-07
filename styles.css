@@ -1,0 +1,136 @@
+/* General Page Styling */
+body {
+    background-color: #121212;
+    background-image: url('background-pattern.png'); /* Add your pattern image if available */
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container and Header Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.logo {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #cccccc;
+}
+
+/* Download Section */
+.download-section {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #ffcc00; /* Vibrant color for call-to-action */
+    color: #000;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.download-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(255, 204, 0, 0.5);
+}
+
+/* Info Section Styling */
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.info-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.info-box:nth-child(1) {
+    border-color: #ffcc00;
+}
+.info-box:nth-child(2) {
+    border-color: #007bff;
+}
+.info-box:nth-child(3) {
+    border-color: #ffffff;
+}
+
+.info-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border-color: #ffffff;
+}
+
+.icon img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.info-box h2 {
+    font-size: 1.5rem;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    font-size: 1rem;
+    color: #cccccc;
+}
+
+/* Footer Styling */
+.footer {
+    text-align: center;
+    padding: 30px;
+    margin-top: 60px;
+    border-top: 1px solid #444;
+    color: #aaaaaa;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #ffcc00;
+}
